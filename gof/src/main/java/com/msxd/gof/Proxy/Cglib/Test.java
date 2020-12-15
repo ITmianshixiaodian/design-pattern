@@ -1,7 +1,5 @@
 package com.msxd.gof.Proxy.Cglib;
 
-import org.apache.catalina.User;
-
 public class Test {
     public static void main(String[] args) {
         //创建目标对象
