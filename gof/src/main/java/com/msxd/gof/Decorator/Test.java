@@ -1,5 +1,8 @@
 package com.msxd.gof.Decorator;
 
+/*
+装饰模式
+ */
 public class Test {
     public static void main(String[] args) {
 
