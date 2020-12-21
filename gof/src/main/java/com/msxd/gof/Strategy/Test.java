@@ -16,6 +16,5 @@ public class Test {
         s = new ConctreteStrategyB();
         c.setStrategy(s);
         c.strategyMethod();
-
     }
 }
