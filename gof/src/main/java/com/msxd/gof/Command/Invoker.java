@@ -1,0 +1,25 @@
+package com.msxd.gof.Command;
+
+import com.msxd.gof.Composite.Transparent.Component;
+
+/**
+ * @author wjhk
+ * @date 2020/12/22 10:24
+ * 调用者
+ */
+public class Invoker {
+    private Command command;
+
+    public Invoker(Command command){
+        this.command=command;
+    }
+
+    public void setCommand(Command command){
+        this.command=command;
+    }
+
+    public void call(){
+        System.out.println("调用者执行命令Command。。。");
+        command.execute();
+    }
+}
