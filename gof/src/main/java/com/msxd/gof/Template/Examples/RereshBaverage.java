@@ -28,9 +28,9 @@ public abstract class RereshBaverage {
     /**
      * 基本方法，将水煮沸。这对所有子类而言是一个共同的行为，所以声明为private，不对子类开放
      */
-    private void boilWater(){
+    private String  boilWater(){
         System.out.println("将水煮沸。");
-
+        return "";
     }
 
     /**

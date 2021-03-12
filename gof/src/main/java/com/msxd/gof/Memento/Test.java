@@ -1,5 +1,8 @@
 package com.msxd.gof.Memento;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * @author wjhk
  * @date 2020/12/24 17:41
@@ -18,5 +21,14 @@ public class Test {
 
         or.restoreMemento(cr.getMemento());//恢复状态
         System.out.println("恢复状态："+or.getState());
+
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        try {
+            System.out.println(formatter.parse("2020-10-10 10:10:10"));
+
+            System.out.println(Date.parse("2020/10/10 10:10:10"));
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
